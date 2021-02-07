@@ -1,5 +1,5 @@
 <?php
-
+set_time_limit(120);
 define('APP_ROOT', rtrim(__DIR__, '/public') . '/');
 require_once APP_ROOT . 'vendor/autoload.php';
 require_once APP_ROOT . 'settings.php';
@@ -7,9 +7,27 @@ require_once APP_ROOT . 'settings.php';
 \App\Classes\FileLogger::default()->writeSeparator();
 \App\Classes\FileLogger::default()->writeSeparator(\App\Classes\FileLogger::default()->getDate() . " Start Execution ");
 
-$deployer = new \App\Classes\Deployer(new \App\Classes\Repository\WebDriver(), ["folder" => "", "gitRepository" => ""]);
-$deployer->addCommand(new \App\Classes\Command\GitPullCommand());
-$deployer->run();
+$driver = null;
+
+if ($_GET['driver']) {
+    $driver_name = $_GET['driver'];
+    switch ($driver_name)
+    {
+        case "web": $driver =  new \App\Classes\Repository\WebDriver(); break;
+        case "github": $driver =  new \App\Classes\Repository\GithubDriver(); break;
+    }
+}
+
+if ($driver !== null)
+{
+    $deployer = new \App\Classes\Deployer($driver, ["folder" => "", "gitRepository" => ""]);
+    $deployer->addCommand(new \App\Classes\Command\GitPullCommand());
+    $deployer->run();
+}
+else
+{
+    \App\Classes\FileLogger::default()->writeError("Not select driver");
+}
 
 \App\Classes\FileLogger::default()->writeSeparator(\App\Classes\FileLogger::default()->getDate() . " End Execution ");
 \App\Classes\FileLogger::default()->writeLine("");
