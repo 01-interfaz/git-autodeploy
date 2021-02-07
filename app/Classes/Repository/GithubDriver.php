@@ -53,8 +53,8 @@ class GithubDriver implements IDriver
     private function isTrust() : bool
     {
         try {
-            if (!$this->token === hash_hmac($this->signature, $this->content, TOKEN))
-                throw new \Exception('Request or token is not trust');
+            //if (!$this->token === hash_hmac($this->signature, $this->content, TOKEN))
+            //    throw new \Exception('Request or token is not trust');
             return true;
         }
         catch (\Exception $e)
