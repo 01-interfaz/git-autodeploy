@@ -1,0 +1,1167 @@
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:19:42) Start Execution ~
+~*07-02-2021 (14:19:42) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:23:10) Start Execution ~
+~*07-02-2021 (14:23:10) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:23:11) Start Execution ~
+~*07-02-2021 (14:23:11) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:23:11) Start Execution ~
+~*07-02-2021 (14:23:11) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:23:11) Start Execution ~
+~*07-02-2021 (14:23:11) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:23:15) Start Execution ~
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:23:35) Start Execution ~
+[ERROR] [App\IClasses\Deployer]sn't valid token
+~*07-02-2021 (14:23:35) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:25:13) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [App\Classes\Deployer]Isn't valid token
+~*07-02-2021 (14:25:13) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:25:31) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Run Commands
+~*07-02-2021 (14:25:31) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:28:00) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Run Commands
+~*07-02-2021 (14:28:00) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:31:08) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Run Commands
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:32:10) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Run Commands
+~*07-02-2021 (14:32:10) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:32:19) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Run Commands
+~*07-02-2021 (14:32:19) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:32:54) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Run Commands 0
+~*07-02-2021 (14:32:54) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:33:20) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attemp run 0 commands
+~*07-02-2021 (14:33:20) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:33:44) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 0 commands
+~*07-02-2021 (14:33:44) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:34:20) Start Execution ~
+~*07-02-2021 (14:34:20) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:34:37) Start Execution ~
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:35:02) Start Execution ~
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:35:13) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+[App\Classes\Command\GitPullCommand]Begin run command 
+[ERROR] [App\Classes\Command\GitPullCommand]Has't folder location
+~*07-02-2021 (14:35:13) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:36:15) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand]Has't folder location
+~*07-02-2021 (14:36:15) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:37:02) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:37:02) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:38:57) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:38:57) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:38:58) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:38:58) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:38:58) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:38:58) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:38:58) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:38:58) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:38:58) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:38:58) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:38:58) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:38:58) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:38:59) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:38:59) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:38:59) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:38:59) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:39:00) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:39:00) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:16) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:16) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:24) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:24) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:26) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:26) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:26) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:26) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:26) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:26) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:27) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:27) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:40) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:40) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:45) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:45) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:41:58) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:41:58) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:42:31) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:42:31) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:42:45) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [App\Classes\Deployer] Isn't valid token
+~*07-02-2021 (14:42:45) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (14:42:53) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (14:42:53) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:06:01) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+[ERROR] [] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:06:01) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:07:09) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+[ERROR] [] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:07:09) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:11:37) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:11:37) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:14:17) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:14:17) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:17:02) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:8887. Error 10061. No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:17:02) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:17:10) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:17:10) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:17:29) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 66.128.35.79:8887. Error 10061. No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:17:29) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:17:41) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:17:41) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:19:15) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:19:15) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:20:35) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:20:35) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:21:48) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [App\Classes\Command\GitPullCommand] Has't folder location
+~*07-02-2021 (15:21:48) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:23:06) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:23:26) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+End run command App\Classes\Command\GitPullCommand
+~*07-02-2021 (15:23:26) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:25:07) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:25:07) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:45:20) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:45:20) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:46:06) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 66.128.35.79:8887. Error 10061. No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 66.128.35.79:8887. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:46:06) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:46:35) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:46:35) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:57:04) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 66.128.32.2:8887. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 66.128.32.2:8887. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:57:04) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:57:24) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:57:24) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:57:45) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:57:45) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:58:49) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh:/home/tux2
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:58:49) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:59:11) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh:/home/tux2
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:59:11) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:59:25) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh:/home/tux2
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:59:25) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:59:34) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh:/home/tux2
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:59:34) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (15:59:57) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh:/home/tux2
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (15:59:57) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:00:08) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh:/home/tux2
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:00:08) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:00:14) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh:/home/tux2
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:00:14) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:00:31) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh:html
+itel5
+prod
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:00:31) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:00:46) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh
+html
+itel5
+prod
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:00:46) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:01:32) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh
+git-deploy
+itel-internal-app
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:01:32) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:01:43) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh
+app
+artisan
+bootstrap
+composer.json
+composer.lock
+config
+database
+_ide_helper.php
+node_modules
+npm-debug.log
+package.json
+package-lock.json
+phpunit.xml
+prefixer.sass.js
+public
+readme.md
+resources
+routes
+server.php
+storage
+tests
+vendor
+webpack.mix.js
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:01:43) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:01:55) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+ssh
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+Already up-to-date.
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:01:55) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:03:49) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:03:49) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:04:41) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:06:07) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+Loading composer repositories with package information
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:06:07) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:20:32) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+
+End run command App\Classes\Command\GitPullCommand
+Success!
+~*07-02-2021 (16:20:32) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:20:46) Start Execution ~
+Read Content
+Check Sender
+Check Token
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:32:17) Start Execution ~
+Read Content
+Check Sender
+Check Token
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+[ERROR] [app\Classes\CommandSSH] Cannot connect to 10.200.1.15:22. Error 10060. Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+[ERROR] [app\Classes\CommandSSH] Hasn't valid ssh session
+
+End run command App\Classes\Command\GitPullCommand
+SSH closed session
+Success!
+~*07-02-2021 (16:32:17) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:32:33) Start Execution ~
+Read Content
+Check Sender
+Check Token
+SSH open session
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+SSH open session
+Already up-to-date.
+
+> @ prod /var/www/prod/itel-internal-app
+> npm run production
+
+
+> @ production /var/www/prod/itel-internal-app
+> cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js
+
+Copying resources/assets/img/app-bg.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/app-bg.png
+Copying resources/assets/img/arrow1.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/arrow1.png
+Copying resources/assets/img/arrow2.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/arrow2.png
+Copying resources/assets/img/intro01.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro01.png
+Copying resources/assets/img/intro02.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro02.png
+Copying resources/assets/img/intro03.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro03.png
+Copying resources/assets/img/item-01.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/item-01.png
+Copying resources/assets/img/item-02.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/item-02.png
+Copying resources/assets/img/mobile.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/mobile.png
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.eot to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.eot
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.svg to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.svg
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.ttf to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.ttf
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.woff to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.woff
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.woff2 to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.woff2
+Copying node_modules/font-awesome/fonts/FontAwesome.otf to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/FontAwesome.otf
+Copying node_modules/ionicons/dist/fonts/ionicons.eot to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.eot
+Copying node_modules/ionicons/dist/fonts/ionicons.svg to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.svg
+Copying node_modules/ionicons/dist/fonts/ionicons.ttf to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.ttf
+Copying node_modules/ionicons/dist/fonts/ionicons.woff to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.woff
+Copying node_modules/ionicons/dist/fonts/ionicons.woff2 to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.woff2
+Copying node_modules/admin-lte/dist/css/skins/_all-skins.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/_all-skins.css
+Copying node_modules/admin-lte/dist/css/skins/_all-skins.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/_all-skins.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow.min.css
+Copying node_modules/admin-lte/dist/img to /var/www/prod/itel-internal-app/public/img
+Copying node_modules/admin-lte/plugins to /var/www/prod/itel-internal-app/public/plugins
+Copying node_modules/icheck/skins/square/blue.png to /var/www/prod/itel-internal-app/public/css/blue.png
+Copying node_modules/icheck/skins/square/blue@2x.png to /var/www/prod/itel-internal-app/public/css/blue@2x.png
+
+Fatal error: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in phar:///usr/local/bin/composer/vendor/symfony/console/Output/StreamOutput.php:79
+Stack trace:
+#0 phar:///usr/local/bin/composer/vendor/symfony/console/Output/Output.php(164): Symfony\Component\Console\Output\StreamOutput->doWrite()
+#1 phar:///usr/local/bin/composer/vendor/symfony/console/Output/Output.php(132): Symfony\Component\Console\Output\Output->write()
+#2 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(641): Symfony\Component\Console\Output\Output->writeln()
+#3 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException()
+#4 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(122): Symfony\Component\Console\Application->run()
+#5 phar:///usr/local/bin/composer/bin/composer(63): Composer\Console\Application->run()
+#6 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#7 {main}
+  thrown in phar:///usr/local/bin/composer/vendor/symfony/console/Output/StreamOutput.php on line 79
+Generating optimized autoload files
+
+End run command App\Classes\Command\GitPullCommand
+SSH closed session
+Success!
+~*07-02-2021 (16:32:33) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:44:17) Start Execution ~
+Read Content
+Check Sender
+Check Token
+SSH open session
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+SSH open session
+
+End run command App\Classes\Command\GitPullCommand
+SSH closed session
+Success!
+~*07-02-2021 (16:44:17) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:48:52) Start Execution ~
+Read Content
+Check Sender
+Check Token
+SSH open session
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+SSH open session
+
+End run command App\Classes\Command\GitPullCommand
+SSH closed session
+Success!
+~*07-02-2021 (16:48:52) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:55:58) Start Execution ~
+Read Content
+Check Sender
+Check Token
+SSH open session
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+SSH open session
+Already up-to-date.
+
+> @ prod /var/www/prod/itel-internal-app
+> npm run production
+
+
+> @ production /var/www/prod/itel-internal-app
+> cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js
+
+Copying resources/assets/img/app-bg.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/app-bg.png
+Copying resources/assets/img/arrow1.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/arrow1.png
+Copying resources/assets/img/arrow2.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/arrow2.png
+Copying resources/assets/img/intro01.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro01.png
+Copying resources/assets/img/intro02.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro02.png
+Copying resources/assets/img/intro03.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro03.png
+Copying resources/assets/img/item-01.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/item-01.png
+Copying resources/assets/img/item-02.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/item-02.png
+Copying resources/assets/img/mobile.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/mobile.png
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.eot to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.eot
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.svg to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.svg
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.ttf to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.ttf
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.woff to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.woff
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.woff2 to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.woff2
+Copying node_modules/font-awesome/fonts/FontAwesome.otf to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/FontAwesome.otf
+Copying node_modules/ionicons/dist/fonts/ionicons.eot to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.eot
+Copying node_modules/ionicons/dist/fonts/ionicons.svg to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.svg
+Copying node_modules/ionicons/dist/fonts/ionicons.ttf to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.ttf
+Copying node_modules/ionicons/dist/fonts/ionicons.woff to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.woff
+Copying node_modules/ionicons/dist/fonts/ionicons.woff2 to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.woff2
+Copying node_modules/admin-lte/dist/css/skins/_all-skins.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/_all-skins.css
+Copying node_modules/admin-lte/dist/css/skins/_all-skins.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/_all-skins.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow.min.css
+Copying node_modules/admin-lte/dist/img to /var/www/prod/itel-internal-app/public/img
+Copying node_modules/admin-lte/plugins to /var/www/prod/itel-internal-app/public/plugins
+Copying node_modules/icheck/skins/square/blue.png to /var/www/prod/itel-internal-app/public/css/blue.png
+Copying node_modules/icheck/skins/square/blue@2x.png to /var/www/prod/itel-internal-app/public/css/blue@2x.png
+
+End run command App\Classes\Command\GitPullCommand
+SSH closed session
+Success!
+~*07-02-2021 (16:55:58) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:57:26) Start Execution ~
+Read Content
+Check Sender
+Check Token
+SSH open session
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+SSH open session
+Already up-to-date.
+
+Fatal error: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in phar:///usr/local/bin/composer/vendor/symfony/console/Output/StreamOutput.php:79
+Stack trace:
+#0 phar:///usr/local/bin/composer/vendor/symfony/console/Output/Output.php(164): Symfony\Component\Console\Output\StreamOutput->doWrite()
+#1 phar:///usr/local/bin/composer/vendor/symfony/console/Output/Output.php(132): Symfony\Component\Console\Output\Output->write()
+#2 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(641): Symfony\Component\Console\Output\Output->writeln()
+#3 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException()
+#4 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(122): Symfony\Component\Console\Application->run()
+#5 phar:///usr/local/bin/composer/bin/composer(63): Composer\Console\Application->run()
+#6 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#7 {main}
+  thrown in phar:///usr/local/bin/composer/vendor/symfony/console/Output/StreamOutput.php on line 79
+Generating optimized autoload files
+
+Fatal error: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in phar:///usr/local/bin/composer/vendor/symfony/console/Output/StreamOutput.php:79
+Stack trace:
+#0 phar:///usr/local/bin/composer/vendor/symfony/console/Output/Output.php(164): Symfony\Component\Console\Output\StreamOutput->doWrite()
+#1 phar:///usr/local/bin/composer/vendor/symfony/console/Output/Output.php(132): Symfony\Component\Console\Output\Output->write()
+#2 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(641): Symfony\Component\Console\Output\Output->writeln()
+#3 phar:///usr/local/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException()
+#4 phar:///usr/local/bin/composer/src/Composer/Console/Application.php(122): Symfony\Component\Console\Application->run()
+#5 phar:///usr/local/bin/composer/bin/composer(63): Composer\Console\Application->run()
+#6 /usr/local/bin/composer(24): require('phar:///usr/loc...')
+#7 {main}
+  thrown in phar:///usr/local/bin/composer/vendor/symfony/console/Output/StreamOutput.php on line 79
+
+> @ prod /var/www/prod/itel-internal-app
+> npm run production
+
+
+> @ production /var/www/prod/itel-internal-app
+> cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js
+
+Copying resources/assets/img/app-bg.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/app-bg.png
+Copying resources/assets/img/arrow1.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/arrow1.png
+Copying resources/assets/img/arrow2.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/arrow2.png
+Copying resources/assets/img/intro01.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro01.png
+Copying resources/assets/img/intro02.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro02.png
+Copying resources/assets/img/intro03.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/intro03.png
+Copying resources/assets/img/item-01.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/item-01.png
+Copying resources/assets/img/item-02.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/item-02.png
+Copying resources/assets/img/mobile.png to /var/www/prod/itel-internal-app/public/img/resources/assets/img/mobile.png
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.eot to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.eot
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.svg to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.svg
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.ttf to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.ttf
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.woff to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.woff
+Copying node_modules/font-awesome/fonts/fontawesome-webfont.woff2 to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/fontawesome-webfont.woff2
+Copying node_modules/font-awesome/fonts/FontAwesome.otf to /var/www/prod/itel-internal-app/public/fonts/node_modules/font-awesome/fonts/FontAwesome.otf
+Copying node_modules/ionicons/dist/fonts/ionicons.eot to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.eot
+Copying node_modules/ionicons/dist/fonts/ionicons.svg to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.svg
+Copying node_modules/ionicons/dist/fonts/ionicons.ttf to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.ttf
+Copying node_modules/ionicons/dist/fonts/ionicons.woff to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.woff
+Copying node_modules/ionicons/dist/fonts/ionicons.woff2 to /var/www/prod/itel-internal-app/public/fonts/node_modules/ionicons/dist/fonts/ionicons.woff2
+Copying node_modules/admin-lte/dist/css/skins/_all-skins.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/_all-skins.css
+Copying node_modules/admin-lte/dist/css/skins/_all-skins.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/_all-skins.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black.css
+Copying node_modules/admin-lte/dist/css/skins/skin-black.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-black.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue.css
+Copying node_modules/admin-lte/dist/css/skins/skin-blue.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-blue.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green.css
+Copying node_modules/admin-lte/dist/css/skins/skin-green.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-green.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple.css
+Copying node_modules/admin-lte/dist/css/skins/skin-purple.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-purple.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red.css
+Copying node_modules/admin-lte/dist/css/skins/skin-red.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-red.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow-light.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow-light.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow-light.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow-light.min.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow.css
+Copying node_modules/admin-lte/dist/css/skins/skin-yellow.min.css to /var/www/prod/itel-internal-app/public/css/skins/node_modules/admin-lte/dist/css/skins/skin-yellow.min.css
+Copying node_modules/admin-lte/dist/img to /var/www/prod/itel-internal-app/public/img
+Copying node_modules/admin-lte/plugins to /var/www/prod/itel-internal-app/public/plugins
+Copying node_modules/icheck/skins/square/blue.png to /var/www/prod/itel-internal-app/public/css/blue.png
+Copying node_modules/icheck/skins/square/blue@2x.png to /var/www/prod/itel-internal-app/public/css/blue@2x.png
+
+End run command App\Classes\Command\GitPullCommand
+SSH closed session
+Success!
+~*07-02-2021 (16:57:26) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:58:22) Start Execution ~
+Read Content
+Check Sender
+Check Token
+SSH open session
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+SSH open session
+Already up-to-date.
+Loading composer repositories with package information
+
+End run command App\Classes\Command\GitPullCommand
+SSH closed session
+Success!
+~*07-02-2021 (16:58:22) End Execution ~*
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~07-02-2021 (16:59:32) Start Execution ~
+Read Content
+Check Sender
+Check Token
+SSH open session
+Attempt run 1 commands
+Begin run command App\Classes\Command\GitPullCommand
+SSH open session
+De github.com:01-interfaz/itel-internal-app
+   4fa3b24..d900d04  master     -> origin/master
+Updating 4fa3b24..d900d04
+Fast-forward
+ resources/views/vendor/adminlte/layouts/landing.blade.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Loading composer repositories with package information
+
+End run command App\Classes\Command\GitPullCommand
+SSH closed session
+Success!
+~*07-02-2021 (16:59:32) End Execution ~*
+
