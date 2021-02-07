@@ -23,8 +23,8 @@ class WebDriver implements IDriver
     public function checkToken(): bool
     {
         try {
-            if (!isset($_GET["token"])) throw new \Exception("Has't token");
-            $this->token = $_GET['token'];
+            if (!isset($_REQUEST["token"])) throw new \Exception("Has't token");
+            $this->token = $_REQUEST['token'];
             return TOKEN === $this->token;
         }
         catch (\Exception $e)

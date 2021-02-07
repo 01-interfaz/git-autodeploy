@@ -9,8 +9,8 @@ require_once APP_ROOT . 'settings.php';
 
 $driver = null;
 
-if ($_GET['driver']) {
-    $driver_name = $_GET['driver'];
+if (isset($_REQUEST['driver'])) {
+    $driver_name = $_REQUEST['driver'];
     switch ($driver_name)
     {
         case "web": $driver =  new \App\Classes\Repository\WebDriver(); break;

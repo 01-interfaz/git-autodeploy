@@ -39,7 +39,6 @@ class GithubDriver implements IDriver
     {
         try {
             if (!isset($_SERVER["HTTP_X_HUB_SIGNATURE"]))throw  new \Exception('Is not github request');
-
             list($algo, $token) = explode("=", $_SERVER["HTTP_X_HUB_SIGNATURE"], 2) + array("", "");
             $this->token = $token;
             $this->algo = $algo;
