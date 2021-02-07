@@ -65,6 +65,7 @@ class FileLogger
     public function write($content)
     {
         $this->logStack[] = $content;
+        echo $content;
         fputs($this->file, $content);
     }
 
