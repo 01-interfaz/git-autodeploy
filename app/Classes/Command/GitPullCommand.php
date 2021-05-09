@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Classes\Command;
-
 
 use app\Classes\CommandSSH;
 use App\Classes\FileLogger;
@@ -17,7 +15,6 @@ class GitPullCommand implements ICommand
         try {
             if (!isset($payload['folder'])) throw new \Exception("Has't folder location");
             $this->folder = $payload['folder'];
-            //if (!is_dir($this->folder)) throw new \Exception("Folder location not exits");
 
             if (!isset($payload['gitRepository'])) throw new \Exception("Has't hit repository");
             $this->gitRepository = $payload['gitRepository'];
@@ -35,7 +32,7 @@ class GitPullCommand implements ICommand
     {
         try{
             $sshResult = CommandSSH::default()->run([
-                'cd /var/www/prod/itel-internal-app',
+                'cd '.$this->folder,
                 'sh git_update.sh'
             ]);
             FileLogger::default()->writeLine($sshResult);

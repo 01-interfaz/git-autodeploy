@@ -32,8 +32,3 @@ else
 \App\Classes\FileLogger::default()->writeSeparator(\App\Classes\FileLogger::default()->getDate() . " End Execution ");
 \App\Classes\FileLogger::default()->writeLine("");
 \App\Classes\FileLogger::default()->close();
-
-/*
-$logs = App\Classes\FileLogger::default()->getLogStack();
-foreach ($logs as $log) echo "  ".$log;
-*/
