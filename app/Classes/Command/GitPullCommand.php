@@ -16,15 +16,27 @@ class GitPullCommand implements ICommand
         try {
             if (!isset($payload->FolderLocation)) throw new Exception("Has't folder location");
             $this->folder = $payload->FolderLocation;
-
-            if (!isset($payload->GitBranch)) throw new Exception("Has't hit repository");
-            $this->gitBranch = $payload->GetGitBranchs();
-
-            return true;
+            $v = $this->checkBranch($payload);
+            if (!$v) FileLogger::default()->writeLineFrom($this, "Exit invalid branch");
+            return $v;
         } catch (Exception $e) {
             FileLogger::default()->writeErrorFrom($this, $e->getMessage());
             return false;
         }
+    }
+
+    private function checkBranch(CommandPayload $payload): bool
+    {
+        foreach ($payload->GetGitBranchs() as $branch) {
+            if (self::compareStringNoSensitiveCase($payload->GetRequest()[0]["branch"], $branch)) return true;
+        }
+        return false;
+    }
+
+    private static function compareStringNoSensitiveCase($a, $b): bool
+    {
+        //FileLogger::default()->writeLine("$a = $b");
+        return strcasecmp($a, $b) == 0;
     }
 
     public function execute(): bool

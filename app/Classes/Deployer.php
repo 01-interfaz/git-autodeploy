@@ -47,23 +47,33 @@ class Deployer
 
     private function runCommands(): bool
     {
-        CommandSSH::default()->openSession();
         FileLogger::default()->writeLine("Attempt run " . count($this->commands) . " commands");
         $result = true;
         $this->payload->SetRequest($this->driver_content);
+
+        //PREPARING
         foreach ($this->commands as $command) {
-            FileLogger::default()->writeLine("Begin run command " . get_class($command));
+            FileLogger::default()->writeLine("Begin preparing command " . get_class($command));
             if (!$command->prepare($this->payload)) {
                 $result = false;
                 break;
             }
-            if (!$command->execute()) {
-                $result = false;
-                break;
-            }
-            FileLogger::default()->writeLine("End run command " . get_class($command));
+            FileLogger::default()->writeLine("End preparing command " . get_class($command));
         }
-        CommandSSH::default()->closeSession();
+
+        //EXECUTE
+        if ($result) {
+            CommandSSH::default()->openSession();
+            foreach ($this->commands as $command) {
+                FileLogger::default()->writeLine("Begin run command " . get_class($command));
+                if (!$command->execute()) {
+                    $result = false;
+                    break;
+                }
+                FileLogger::default()->writeLine("End run command " . get_class($command));
+            }
+            CommandSSH::default()->closeSession();
+        }
         return $result;
     }
 
