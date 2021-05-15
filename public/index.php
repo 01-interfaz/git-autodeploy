@@ -26,6 +26,7 @@ $driver = null;
 
 if (isset($_REQUEST['driver'])) {
     $driver_name = $_REQUEST['driver'];
+
     switch ($driver_name) {
         case "web":
             $driver = new WebDriver();

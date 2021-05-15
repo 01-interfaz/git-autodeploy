@@ -8,17 +8,14 @@ use Exception;
 class WebDriver implements IDriver
 {
     private string $token;
-    private string $content;
 
-    public function readContent(): bool
+    public function readContent(): ?array
     {
         try {
-            $this->content = file_get_contents("php://input");
-            file_put_contents("content.json", $this->content);
-            return true;
+            return json_decode(file_get_contents("php://input"), true);
         } catch (Exception $e) {
             FileLogger::default()->writeErrorFrom($this, $e->getMessage());
-            return false;
+            return null;
         }
     }
 
