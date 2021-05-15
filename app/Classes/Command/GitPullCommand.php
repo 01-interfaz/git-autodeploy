@@ -9,7 +9,6 @@ use Exception;
 class GitPullCommand implements ICommand
 {
     private string $folder;
-    private array $gitBranch;
 
     public function prepare(CommandPayload $payload): bool
     {
