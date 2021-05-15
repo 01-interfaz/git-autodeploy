@@ -5,7 +5,6 @@ namespace App\Classes\Repository;
 
 
 use App\Classes\FileLogger;
-use mysql_xdevapi\Exception;
 
 class GithubDriver implements IDriver
 {

@@ -5,8 +5,8 @@ namespace App\Classes;
 class FileLogger
 {
     private $file;
-    private $time;
-    private $logStack = [];
+    private int $time;
+    private array $logStack = [];
 
     private static ?FileLogger $instance = null;
 
@@ -51,13 +51,15 @@ class FileLogger
         $this->write($content."\n");
     }
 
+    /** @noinspection PhpUnused */
     public function writeLineFrom($sender, $content)
     {
         $sender = get_class($sender);
         $this->writeLine( "[$sender] " . $content);
     }
 
-    public function getLogStack()
+    /** @noinspection PhpUnused */
+    public function getLogStack(): array
     {
         return $this->logStack;
     }
