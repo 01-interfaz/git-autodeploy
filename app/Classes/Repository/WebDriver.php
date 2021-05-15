@@ -15,7 +15,6 @@ class WebDriver implements IDriver
         try {
             $this->content = file_get_contents("php://input");
             file_put_contents("content.json", $this->content);
-
             return true;
         } catch (Exception $e) {
             FileLogger::default()->writeErrorFrom($this, $e->getMessage());
