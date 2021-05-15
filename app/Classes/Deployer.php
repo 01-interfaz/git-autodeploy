@@ -12,6 +12,7 @@ class Deployer
     private array $commands = [];
     private CommandPayload $payload;
     private IDriver $driver;
+    private ?array $driver_content;
 
     public function __construct(IDriver $driver, CommandPayload $payload)
     {
@@ -22,39 +23,44 @@ class Deployer
     public function run()
     {
         header("Content-Type: text/plain");
-        if ($this->runDriver($this->driver) && $this->runCommands())
-        {
+        if ($this->runDriver($this->driver) && $this->runCommands()) {
             FileLogger::default()->writeLine("Success!");
         }
     }
 
-    private function runDriver(IDriver $driver) : bool
+    private function runDriver(IDriver $driver): bool
     {
         try {
             FileLogger::default()->writeLine("Read Content");
-            if (!$driver->readContent()) throw new Exception("Isn't possible read the content");
+            $this->driver_content = $driver->readContent();
+            if ($this->driver_content == null) throw new Exception("Isn't possible read the content");
             FileLogger::default()->writeLine("Check Sender");
             if (!$driver->checkSender()) throw new Exception("Isn't valid sender to this driver");
             FileLogger::default()->writeLine("Check Token");
             if (!$driver->checkToken()) throw new Exception("Isn't valid token");
             return true;
-        }
-        catch (Exception $e){
+        } catch (Exception $e) {
             FileLogger::default()->writeErrorFrom($this, $e->getMessage());
             return false;
         }
     }
 
-    private function runCommands() : bool
+    private function runCommands(): bool
     {
         CommandSSH::default()->openSession();
         FileLogger::default()->writeLine("Attempt run " . count($this->commands) . " commands");
         $result = true;
-        foreach ($this->commands as $command)
-        {
+        $this->payload->SetRequest($this->driver_content);
+        foreach ($this->commands as $command) {
             FileLogger::default()->writeLine("Begin run command " . get_class($command));
-            if(!$command->prepare($this->payload)) { $result = false; break;}
-            if(!$command->execute()) { $result = false; break;}
+            if (!$command->prepare($this->payload)) {
+                $result = false;
+                break;
+            }
+            if (!$command->execute()) {
+                $result = false;
+                break;
+            }
             FileLogger::default()->writeLine("End run command " . get_class($command));
         }
         CommandSSH::default()->closeSession();
