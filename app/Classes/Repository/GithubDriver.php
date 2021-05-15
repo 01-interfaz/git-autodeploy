@@ -8,25 +8,28 @@ use App\Classes\FileLogger;
 
 class GithubDriver implements IDriver
 {
-    private $token;
-    private $content;
-    private $algo;
+    private string $token;
+    private string $algo;
 
-    public function readContent(): bool
+    public function readContent(): ?array
     {
+        $value = null;
         try {
-            $content = file_get_contents("php://input");
-            return true;
+            $content = json_decode(file_get_contents("php://input"), true);
+            dd($content);
+            if (key_exists("ref", $content)) {
+                $branch = explode("/", $content["ref"]);
+                $value[] = ["branch" => end($branch)];
+            }
         } catch (\Exception $e) {
             FileLogger::default()->writeErrorFrom($this, $e->getMessage());
-            return false;
         }
+        return $value;
     }
 
     public function checkSender(): bool
     {
         try {
-            $content = file_get_contents("php://input");
             return true;
         } catch (\Exception $e) {
             FileLogger::default()->writeErrorFrom($this, $e->getMessage());
@@ -36,29 +39,6 @@ class GithubDriver implements IDriver
 
     public function checkToken(): bool
     {
-        try {
-            if (!isset($_SERVER["HTTP_X_HUB_SIGNATURE"]))throw  new \Exception('Is not github request');
-            list($algo, $token) = explode("=", $_SERVER["HTTP_X_HUB_SIGNATURE"], 2) + array("", "");
-            $this->token = $token;
-            $this->algo = $algo;
-            return $this->isTrust();
-        } catch (\Exception $e) {
-            FileLogger::default()->writeErrorFrom($this, $e->getMessage());
-            return false;
-        }
-    }
-
-    private function isTrust() : bool
-    {
-        try {
-            //if (!$this->token === hash_hmac($this->signature, $this->content, TOKEN))
-            //    throw new \Exception('Request or token is not trust');
-            return true;
-        }
-        catch (\Exception $e)
-        {
-            FileLogger::default()->writeErrorFrom($this,$e->getMessage());
-            return false;
-        }
+        return true;
     }
 }
