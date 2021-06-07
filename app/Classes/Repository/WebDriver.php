@@ -12,7 +12,7 @@ class WebDriver implements IDriver
     public function readContent(): ?array
     {
         try {
-            return json_decode(file_get_contents("php://input"), true);
+            return request();
         } catch (Exception $e) {
             FileLogger::default()->writeErrorFrom($this, $e->getMessage());
             return null;
@@ -21,16 +21,7 @@ class WebDriver implements IDriver
 
     public function checkToken(): bool
     {
-        try {
-            if (!isset($_REQUEST["token"])) throw new Exception("Has't token");
-            $this->token = $_REQUEST['token'];
-            return TOKEN === $this->token;
-        }
-        catch (Exception $e)
-        {
-            FileLogger::default()->writeErrorFrom($this, $e->getMessage());
-            return false;
-        }
+        return true;
     }
 
     public function checkSender(): bool
