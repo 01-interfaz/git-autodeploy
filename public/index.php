@@ -1,8 +1,6 @@
 <?php
 
-use App\Classes\Command\CommandPayload;
 use App\Classes\Command\GitPullCommand;
-use App\Classes\Deployer;
 use App\Classes\FileLogger;
 
 
@@ -19,14 +17,18 @@ require_once APP_ROOT . 'settings.php';
 FileLogger::default()->writeSeparator();
 FileLogger::default()->writeSeparator(FileLogger::default()->getDate() . " Start Execution ");
 
-$webHook = new \App\Classes\WebHook("../webhook.json");
-$webHookError = "";
-if ($webHook->validate($webHookError)) {
-    $deployer = $webHook->getDeployer();
-    $deployer->addCommand(new GitPullCommand());
-    $deployer->run();
+if (TOKEN == request_input('token')) {
+    $webHook = new \App\Classes\WebHook("../webhook.json");
+    $webHookError = "";
+    if ($webHook->validate($webHookError)) {
+        $deployer = $webHook->getDeployer();
+        $deployer->addCommand(new GitPullCommand());
+        $deployer->run();
+    } else {
+        FileLogger::default()->writeError($webHookError);
+    }
 } else {
-    FileLogger::default()->writeError($webHookError);
+    FileLogger::default()->writeError("invalid token");
 }
 
 FileLogger::default()->writeSeparator(FileLogger::default()->getDate() . " End Execution ");
