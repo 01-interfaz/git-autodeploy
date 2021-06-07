@@ -18,7 +18,7 @@ FileLogger::default()->writeSeparator();
 FileLogger::default()->writeSeparator(FileLogger::default()->getDate() . " Start Execution ");
 
 if (TOKEN == request_input('token')) {
-    $webHook = new \App\Classes\WebHook("../webhook.json");
+    $webHook = new \App\Classes\WebHook(APP_ROOT . "webhook.json");
     $webHookError = "";
     if ($webHook->validate($webHookError)) {
         $deployer = $webHook->getDeployer();
