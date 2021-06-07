@@ -31,8 +31,9 @@ class Deployer
     private function runDriver(IDriver $driver): bool
     {
         try {
-            FileLogger::default()->writeLine("Read Content");
+            FileLogger::default()->writeLine("Starting Read Content");
             $this->driver_content = $driver->readContent();
+            FileLogger::default()->writeLine("Finish Read Content");
             if ($this->driver_content == null) throw new Exception("Isn't possible read the content");
             FileLogger::default()->writeLine("Check Sender");
             if (!$driver->checkSender()) throw new Exception("Isn't valid sender to this driver");
