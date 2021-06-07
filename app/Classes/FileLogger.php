@@ -10,7 +10,7 @@ class FileLogger
 
     private static ?FileLogger $instance = null;
 
-    public static function default() : FileLogger
+    public static function default(): FileLogger
     {
         if (self::$instance === null) self::$instance = new static('/default.log');
         return self::$instance;
@@ -18,7 +18,11 @@ class FileLogger
 
     public function __construct($filePath)
     {
-        $this->file = fopen(APP_ROOT . $filePath, "a");
+        try {
+            $this->file = fopen(APP_ROOT . $filePath, "a");
+        } catch (Exception | Throwable $e) {
+            $this->writeError("Not permission for write LOG file on $filePath");
+        }
         $this->time = time();
 
         date_default_timezone_set("UTC");
@@ -43,19 +47,19 @@ class FileLogger
     public function writeErrorFrom($sender, $content)
     {
         $sender = get_class($sender);
-        $this->writeError( "[$sender] " . $content);
+        $this->writeError("[$sender] " . $content);
     }
 
     public function writeLine($content)
     {
-        $this->write($content."\n");
+        $this->write($content . "\n");
     }
 
     /** @noinspection PhpUnused */
     public function writeLineFrom($sender, $content)
     {
         $sender = get_class($sender);
-        $this->writeLine( "[$sender] " . $content);
+        $this->writeLine("[$sender] " . $content);
     }
 
     /** @noinspection PhpUnused */
@@ -68,11 +72,11 @@ class FileLogger
     {
         $this->logStack[] = $content;
         echo $content;
-        fputs($this->file, $content);
+        if ($this->file != null) fputs($this->file, $content);
     }
 
     public function close()
     {
-        fclose($this->file);
+        if ($this->file != null) fclose($this->file);
     }
 }
