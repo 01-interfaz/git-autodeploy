@@ -48,10 +48,10 @@ function request(): array
     if (!isset($_SERVER['__REQUEST__'])) {
         try {
             $json = file_get_contents("php://input");
+            $_SERVER['__REQUEST__'] = json_decode($json ?? "[]", true);
         } catch (Exception | Throwable $e) {
             \App\Classes\FileLogger::default()->writeError($e->getMessage());
         }
-        $_SERVER['__REQUEST__'] = json_decode($json ?? "[]", true);
     }
-    return $_SERVER['__REQUEST__'];
+    return $_SERVER['__REQUEST__'] ?? [];
 }
