@@ -7,7 +7,9 @@ class WebDriver implements IDriver
 {
     public function readContent(): ?array
     {
-        return request();
+        $values = [];
+        $values["branch"] = request_input('branch');
+        return $values;
     }
 
     public function checkToken(): bool
