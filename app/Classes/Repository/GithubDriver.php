@@ -10,16 +10,19 @@ class GithubDriver implements IDriver
 {
     public function readContent(): ?array
     {
-        $value = null;
-        try {
-            $content = json_decode(file_get_contents("php://input"), true);
-            if (key_exists("ref", $content)) {
-                $branch = explode("/", $content["ref"]);
-                $value[] = ["branch" => end($branch)];
-            }
-        } catch (\Exception $e) {
-            FileLogger::default()->writeErrorFrom($this, $e->getMessage());
+        if (!request_header_validate("X-GitHub-Event", "push")) {
+            FileLogger::default()->writeErrorFrom($this, "invalid event type, require 'push' event");
+            return null;
         }
+
+        if (!request_input_has('ref')) {
+            FileLogger::default()->writeErrorFrom($this, "invalid content, require 'ref' value");
+            return null;
+        }
+
+        $value = null;
+        $branch = explode("/", request_input('ref'));
+        $value[] = ["branch" => end($branch)];
         return $value;
     }
 

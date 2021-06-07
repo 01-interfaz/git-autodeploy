@@ -3,7 +3,7 @@
 use App\Classes\Command\GitPullCommand;
 use App\Classes\FileLogger;
 
-
+ini_set("allow_url_fopen", true);
 set_time_limit(120);
 define('APP_ROOT', rtrim(__DIR__, '/public') . '/');
 
