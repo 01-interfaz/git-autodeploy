@@ -46,7 +46,11 @@ function request_header_validate(string $key, string $value): bool
 function request(): array
 {
     if (!isset($_SERVER['__REQUEST__'])) {
-        $json = file_get_contents("php://input");
+        try {
+            $json = file_get_contents("php://input");
+        } catch (Exception | Throwable $e) {
+            \App\Classes\FileLogger::default()->writeError($e->getMessage());
+        }
         $_SERVER['__REQUEST__'] = json_decode($json ?? "[]", true);
     }
     return $_SERVER['__REQUEST__'];

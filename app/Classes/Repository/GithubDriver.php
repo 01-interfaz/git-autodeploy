@@ -28,12 +28,7 @@ class GithubDriver implements IDriver
 
     public function checkSender(): bool
     {
-        try {
-            return true;
-        } catch (\Exception $e) {
-            FileLogger::default()->writeErrorFrom($this, $e->getMessage());
-            return false;
-        }
+        return true;
     }
 
     public function checkToken(): bool
