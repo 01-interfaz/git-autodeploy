@@ -7,6 +7,8 @@ class WebDriver implements IDriver
 {
     public function readContent(): ?array
     {
+        request();
+        dd($_SERVER);
         return request();
     }
 
