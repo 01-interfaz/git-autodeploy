@@ -1,0 +1,7 @@
+{
+  "app.test": {
+    "branch": "master",
+    "path": "/var/www/",
+    "driver": "github"
+  }
+}

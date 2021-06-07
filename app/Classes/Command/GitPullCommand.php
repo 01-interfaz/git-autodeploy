@@ -41,7 +41,7 @@ class GitPullCommand implements ICommand
     public function execute(): bool
     {
         try {
-            $sshResult = CommandSSH::default()->run(["cd $this->folder", 'sh git_update.sh']);
+            $sshResult = CommandSSH::default()->run(["cd $this->folder", 'sh update.sh']);
             FileLogger::default()->writeLine($sshResult);
             return true;
         } catch (Exception $e) {
