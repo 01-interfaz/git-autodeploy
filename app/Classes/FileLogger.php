@@ -48,7 +48,7 @@ class FileLogger
 
     public function writeLine($content)
     {
-        $this->write($content."</br>");
+        $this->write($content."</br>\n");
     }
 
     /** @noinspection PhpUnused */
