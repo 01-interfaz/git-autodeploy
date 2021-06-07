@@ -20,9 +20,8 @@ class GithubDriver implements IDriver
             return null;
         }
 
-        $value = null;
         $branch = explode("/", request_input('ref'));
-        $value[] = ["branch" => end($branch)];
+        $value["branch"] = end($branch);
         return $value;
     }
 
