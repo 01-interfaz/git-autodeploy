@@ -26,7 +26,8 @@ class GitPullCommand implements ICommand
 
     private function checkBranch(CommandPayload $payload): bool
     {
-        dd($payload);
+        dd($payload->GetGitBranchs());
+        //dd($payload);
         $request_branch = $payload->GetRequest()["branch"];
         foreach ($payload->GetGitBranchs() as $branch) if (self::compareStringNoSensitiveCase($request_branch, $branch)) return true;
         return false;
