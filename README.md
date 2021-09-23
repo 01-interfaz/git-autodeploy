@@ -9,6 +9,11 @@ Autodeployer for GIT
 * Navega a la ruta de la aplicación
 * Ejecuta update.sh
 
+### Configurar una clave SSH en algun perfil con acceso al repositorio
+
+* En el servidor crea una clave SSH
+* Accede a https://github.com/settings/keys
+
 ### Configurar los datos SSH en settings.php
 
 ```php
