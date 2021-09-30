@@ -1,3 +1,6 @@
+#AUTOR Franco Rosatto
+#Require NODE.js, NPM and Forever Package
+
 APP_NAME="APP-NAME"
 
 _git_pull()
