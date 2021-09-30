@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #AUTOR Franco Rosatto
 #Require NODE.js, NPM and Forever Package
 
